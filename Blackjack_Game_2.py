@@ -176,7 +176,7 @@ def dealer_busts(player, dealer, chips):
     chips.win_bet()
     
 def dealer_wins(player, dealer, chips):
-    print("DEALERS WINS! PLAYER BUSTED!")
+    print("DEALERS WINS! PLAYER LOSES!")
     chips.lost_bet()
 
 # Both Dealer and Player have 21, tie
