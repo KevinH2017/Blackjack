@@ -238,9 +238,9 @@ while True:
         elif player_hand.value > dealer_hand.value:
             player_wins(player_hand, dealer_hand, player_chips)     # Player Wins
         else:
-            push(player_hand, dealer_hand)
+            push(player_hand, dealer_hand)                          # Tie
     
-    # Inform Player of their chips total
+    # Prints Player's total chips
     print("\nPlayer's winnings stand at ", player_chips.total)
     
     # Ask to play again
